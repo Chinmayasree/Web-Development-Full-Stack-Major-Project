@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2f4f4f;
+}
+.container{
+    background-color: #dcdcdc;
+    width: 75vw;
+    max-width: 40cm; 
+    padding: 3cm 3cm;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.50cm;
+    box-shadow: 0 1.50cm 1.5cm rgba(8, 21, 65, 0.25);
+    border: solid;
+    border-color: ;
+}
+.search-wrapper {
+    display: grid;
+    grid-template-columns: 9fr 4fr ;
+    gap: 1.75cm;
+}
+.search-wrapper button {
+    font-size: 0.5cm;
+    background-color:#3d64e6 ;
+    color: #ffffff;
+    padding: 0.6cm 0;
+    border: none;
+    border-radius: 1.0cm;
+}
+.search-wrapper input{
+    font-size: 1.0cm;
+    padding: 0 0.67cm;
+    border: double;
+    border-bottom: double;
+    outline: none;
+    color: #222a43;
+}
